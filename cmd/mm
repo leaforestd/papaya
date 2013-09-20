@@ -1,0 +1,11 @@
+#!/bin/bash 
+echo make 
+cd ../src/
+make
+cd ../cmd/
+echo ./dimg 
+./dimg 
+echo ./bo 
+./bo 
+cd ../src/
+exit 

@@ -1,0 +1,2 @@
+#/bin/bash
+gdb ../bin/g_kernel.elf -x ../cmd/gdbcmd

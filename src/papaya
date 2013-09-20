@@ -1,0 +1,717 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABC	usr/src/t.c	2;"	d	file:
+BCD	usr/src/t.c	3;"	d	file:
+BLOCK_SECTORS	fs_ext.c	22;"	d	file:
+BLOCK_SECTORS	fs_ext.cp	22;"	d	file:
+BLOCK_SIZE	fs_ext.c	21;"	d	file:
+BLOCK_SIZE	fs_ext.cp	21;"	d	file:
+BOUND	disp.c	13;"	d	file:
+BTL	fs_ext.c	24;"	d	file:
+BTL	fs_ext.cp	24;"	d	file:
+BTS	fs_ext.c	23;"	d	file:
+BTS	fs_ext.cp	23;"	d	file:
+BUFFER_SIZE	usr/src/hw.c	246;"	d	file:
+BUFSIZE	debug/debug.c	12;"	d	file:
+CMD_MAX_LEN	tty.c	35;"	d	file:
+CMD_MAX_NUM	tty.c	/^int CMD_MAX_NUM=sizeof(cmd_arr)\/4;$/;"	v
+CMP_GOON_WHEN	ku_utils.c	4;"	d	file:
+DIRBLOCKS_SIZE	fs_ext.c	34;"	d	file:
+DIRBLOCKS_SIZE	fs_ext.cp	37;"	d	file:
+EDI_ENTER	disp.c	9;"	d	file:
+ERRNO_H	usr/include/errno.h	2;"	d
+FSBUF_SIZE	fs_ext.c	35;"	d	file:
+FSBUF_SIZE	fs_ext.cp	38;"	d	file:
+GDT_SECTORS	fs_ext.c	28;"	d	file:
+GDT_SECTORS	fs_ext.cp	28;"	d	file:
+GDT_SIZE	fs_ext.c	27;"	d	file:
+GDT_SIZE	fs_ext.cp	27;"	d	file:
+GROUP_INODES	fs_ext.cp	31;"	d	file:
+GROUP_NUM	fs_ext.c	29;"	d	file:
+GROUP_NUM	fs_ext.cp	29;"	d	file:
+Gate	kernel.asm	/^Gate selector_plain_c0,i2fh-_start+base_text,0,DA_386IGate$/;"	l
+Gate	kernel.asm	/^Gate selector_plain_c0,i80-_start+base_text,0,DA_386IGate$/;"	l
+INODE_PER_SECTOR	fs_ext.c	32;"	d	file:
+INODE_PER_SECTOR	fs_ext.cp	33;"	d	file:
+INODE_SIZE	fs_ext.c	31;"	d	file:
+INODE_SIZE	fs_ext.cp	32;"	d	file:
+INODE_TABLE_SECTORS	fs_ext.cp	35;"	d	file:
+INODE_TABLE_SIZE	fs_ext.cp	34;"	d	file:
+KERNEL_CACHE_BASE	debug.c	4;"	d	file:
+LOOP	disp.c	20;"	d	file:
+MAX_CMD	fs.c	13;"	d	file:
+MAX_MOUNT_INFO	fs.c	15;"	d	file:
+MK_BDF	tty.c	173;"	d	file:
+MK_PCIADDR	tty.c	174;"	d	file:
+NLIST	debug/debug.c	/^}NLIST;$/;"	t	typeref:struct:internal_nlist	file:
+N_FUNC	debug/debug.c	25;"	d	file:
+N_LBRAC	debug/debug.c	28;"	d	file:
+N_LINE	debug/debug.c	27;"	d	file:
+N_RBRAC	debug/debug.c	29;"	d	file:
+N_SO	debug/debug.c	26;"	d	file:
+N_SOL	debug/debug.c	24;"	d	file:
+OUTPUT_DELAY	struinfo.c	8;"	d	file:
+PAGE_SIZE	disp.c	11;"	d	file:
+PCI_BUS_MAX	tty.c	175;"	d	file:
+PCI_CONFIG_ADDR	tty.c	178;"	d	file:
+PCI_CONFIG_DATA	tty.c	179;"	d	file:
+PCI_DEV_MAX	tty.c	176;"	d	file:
+PCI_FUNC_MAX	tty.c	177;"	d	file:
+ROOT_INODE	fs_ext.c	25;"	d	file:
+ROOT_INODE	fs_ext.cp	25;"	d	file:
+SIZE_LOAD_BUF	tty.c	33;"	d	file:
+TSS1	kernel.asm	/^TSS1 selector_plain_d0,ring0_smallstack_bottom,0,0,0,0$/;"	l
+UNISTD_H	usr/include/unistd.h	2;"	d
+UTILS_H	usr/include/utils.h	2;"	d
+VALUE	struinfo.c	6;"	d	file:
+_k_show_chars	func_table.c	/^void _k_show_chars(char*pt_head,unsigned end_flag){$/;"	f	signature:(char*pt_head,unsigned end_flag)
+_k_show_var	func_table.c	/^void _k_show_var(unsigned var,unsigned var_type){$/;"	f	signature:(unsigned var,unsigned var_type)
+_loadblocks	fs_ext.cp	/^void  _loadblocks(int seedblock,int depth){\/\/调用之前，手动指定load_addr变量$/;"	f	signature:(int seedblock,int depth)
+_reallystart	kernel.asm	/^_reallystart:$/;"	l
+_start	kernel.asm	/^_start:$/;"	l
+_start	usr/src/hw.c	/^void _start(void){$/;"	f	signature:(void)
+add	disp.asm	/^add ebp,4$/;"	l
+add	disp.asm	/^add ebp,8;now bp point to the first arg passed$/;"	l
+add	kernel.asm	/^add esp,4$/;"	l
+add	proc.asm	/^add esp,4$/;"	l
+add	usr/src/asmtask.asm	/^add esp,4$/;"	l
+adjust	fs_ext.c	/^static void adjust(void);$/;"	p	file:	signature:(void)
+adjust	fs_ext.c	/^static void adjust(void){$/;"	f	file:	signature:(void)
+adjust	fs_ext.cp	/^static void adjust(void);$/;"	p	file:	signature:(void)
+adjust	fs_ext.cp	/^static void adjust(void){$/;"	f	file:	signature:(void)
+alloc_page	mm.c	/^int alloc_page(){$/;"	f
+alloc_page	mm.c.cp	/^int alloc_page(){$/;"	f	signature:()
+arg0	tty.c	/^static char arg0[16];$/;"	v	file:
+arg_fdesc	fs_ext.c	44;"	d	file:
+asciis_buffer	disp.c	/^static char asciis_buffer[buffer_len];\/\/存储数字分解后各位的ascii码$/;"	v	file:
+askfs	fs.c	/^int askfs(int command,$/;"	f	signature:(int command, char* path,int flags, int fd,char*addr,int size, int seek,int whence )
+askhs	fs_ext.c	/^static void askhs(int command,int lba,int count,char*buf);$/;"	p	file:	signature:(int command,int lba,int count,char*buf)
+askhs	fs_ext.c	/^void askhs(int command,int lba,int count,char*buf){$/;"	f	signature:(int command,int lba,int count,char*buf)
+askhs	fs_ext.cp	/^static void askhs(int command,int lba,int count,char*buf);$/;"	p	file:	signature:(int command,int lba,int count,char*buf)
+askhs	fs_ext.cp	/^void askhs(int command,int lba,int count,char*buf){$/;"	f	signature:(int command,int lba,int count,char*buf)
+asm	makefile	/^asm=nasm$/;"	m
+asm	usr/src/makefile	/^asm=nasm$/;"	m
+asmHeader	makefile	/^asmHeader=..\/include\/*.mac ..\/include\/*.inc  $/;"	m
+asmflags	makefile	/^asmflags=-I..\/include\/ -I.\/usr\/include\/$/;"	m
+asmflags	usr/src/makefile	/^asmflags=-I..\/include\/$/;"	m
+assert_func	utils.c	/^void assert_func(char*exp,char*file,char*base_file,int line){$/;"	f	signature:(char*exp,char*file,char*base_file,int line)
+base_entrance_kernel	boot.asm	/^base_entrance_kernel equ 0x30400$/;"	d
+base_kernelStack	kernel.asm	/^base_kernelStack equ 0fffeh;kernel-stack range from  0fffeh to 7f00h,about 32kb$/;"	d
+base_kernel_loaded	boot.asm	/^base_kernel_loaded equ  0x8000$/;"	d
+base_room_info32	kernel.asm	/^base_room_info32 equ 7e00h;7e00~7f00h$/;"	d
+base_text	kernel.asm	/^base_text equ 0x30400$/;"	d
+base_tss	kernel.asm	/^base_tss equ base_text+(tss-_start)$/;"	d
+bit1_count	utils.c	/^int bit1_count(char*addr,int bytes){$/;"	f	signature:(char*addr,int bytes)
+block0	utils.c	/^static EMPTY_BLOCK*block0=(EMPTY_BLOCK*)HEAP_BASE;$/;"	v	file:
+blocks_limit	fs_ext.cp	/^static int blocks_limit=0;$/;"	v	file:
+bounds_check	kernel.asm	/^bounds_check:$/;"	l
+breakPoint	kernel.asm	/^breakPoint:$/;"	l
+buff	tty.c	/^char*buff;$/;"	v
+buffer	usr/src/hw.c	/^char volatile buffer[BUFFER_SIZE]="as";$/;"	v
+buffer_len	disp.c	8;"	d	file:
+cCallDispStr	garbage/cCallDispStr.c	/^void cCallDispStr(){$/;"	f
+call	disp.asm	/^call dispEAX $/;"	l
+call	disp.asm	/^call dispEAX$/;"	l
+call	kernel.asm	/^call init8253$/;"	l
+call	kernel.asm	/^call init8259A$/;"	l
+cat	tty.c	/^static void cat(char*path);$/;"	p	file:	signature:(char*path)
+cat	tty.c	/^static void cat(char*path){$/;"	f	file:	signature:(char*path)
+cc	makefile	/^cc=gcc$/;"	m
+cc	usr/src/makefile	/^cc=gcc$/;"	m
+ccHeader	makefile	/^ccHeader=..\/include\/*.h$/;"	m
+ceil_divide	ku_utils.c	/^int ceil_divide(int a,int b){$/;"	f	signature:(int a,int b)
+cflags	makefile	/^cflags=-I..\/include\/ -I.\/usr\/include\/ -Wall -fno-builtin -g -O0$/;"	m
+cflags	usr/src/makefile	/^cflags=-I..\/include\/ -Wall -fno-builtin$/;"	m
+chars_to_str	ku_utils.c	/^void chars_to_str(char*str,char*chars){\/\/endflag=\\0,space$/;"	f	signature:(char*str,char*chars)
+charscmp	ku_utils.c	/^int charscmp(char*pt1,char*pt2,int end_flag){$/;"	f	signature:(char*pt1,char*pt2,int end_flag)
+check_dirent	mm.c	/^static void check_dirent(u32*dir,int entry_id);$/;"	p	file:	signature:(u32*dir,int entry_id)
+check_dirent	mm.c	/^static void check_dirent(u32*dir,int entry_id){$/;"	f	file:	signature:(u32*dir,int entry_id)
+check_dirent	mm.c.cp	/^static void check_dirent(u32*dir,int entry_id);$/;"	p	file:	signature:(u32*dir,int entry_id)
+check_dirent	mm.c.cp	/^static void check_dirent(u32*dir,int entry_id){$/;"	f	file:	signature:(u32*dir,int entry_id)
+cld	disp.asm	/^cld$/;"	l
+cli	boot.asm	/^cli$/;"	l
+cli	kernel.asm	/^cli$/;"	l
+cmd	fs_ext.c	43;"	d	file:
+cmd	fs_ext.cp	/^static  FS_COMMAND cmd;$/;"	v	file:
+cmd	hs.c	/^static HS_CMD cmd;$/;"	v	file:
+cmd_achieved	fs_ext.cp	/^static int cmd_achieved;$/;"	v	file:
+cmd_arr	tty.c	/^static char*cmd_arr[]={$/;"	v	file:
+cmd_asciis	tty.c	/^static char cmd_asciis[CMD_MAX_LEN];$/;"	v	file:
+cmd_asciis_nextword	tty.c	/^static int cmd_asciis_nextword(void);$/;"	p	file:	signature:(void)
+cmd_asciis_nextword	tty.c	/^static int cmd_asciis_nextword(void){\/\/aim:adjust pt_cmd$/;"	f	file:	signature:(void)
+cmd_info	hs.c	/^void cmd_info(void){$/;"	f	signature:(void)
+cmd_len	tty.c	/^static int cmd_len=0;$/;"	v	file:
+copr_error	kernel.asm	/^copr_error:$/;"	l
+copr_not_avialable	kernel.asm	/^copr_not_avialable:$/;"	l
+copr_seg_overrun	kernel.asm	/^copr_seg_overrun:$/;"	l
+count_dispatch	proc.c	/^static int count_dispatch=0;$/;"	v	file:
+cpu_string	kernel.c	/^char cpu_string[16];$/;"	v
+create_kernel_process	proc.c	/^void create_kernel_process(u32 addr,int prio,int time_slice,char*p_name,int ring){$/;"	f	signature:(u32 addr,int prio,int time_slice,char*p_name,int ring)
+create_usr_process	proc.c	/^void create_usr_process(char*exec_file,int prio,int time_slice,char*p_name,int father_pid){$/;"	f	signature:(char*exec_file,int prio,int time_slice,char*p_name,int father_pid)
+ctrl_down	kbd_drv.c	/^static int ctrl_down=0;$/;"	v	file:
+curr_dp_lba	fs_ext.c	/^static int curr_dp_lba=0; $/;"	v	file:
+curr_dp_lba	fs_ext.cp	/^static int curr_dp_lba=0; $/;"	v	file:
+cySegment	boot.asm	/^cySegment:$/;"	l
+dap	boot.asm	/^dap:$/;"	l
+data_area_var	usr/src/hw.c	/^int data_area_var=1;$/;"	v
+db	boot.asm	/^db 0xaa,0xbb,0xcc,0xff$/;"	l
+dd	kernel.asm	/^dd _k_show_chars$/;"	l
+dd	kernel.asm	/^dd _k_show_var$/;"	l
+dd	kernel.asm	/^dd k_close$/;"	l
+dd	kernel.asm	/^dd k_obuffer_shift$/;"	l
+dd	kernel.asm	/^dd k_open$/;"	l
+dd	kernel.asm	/^dd k_read$/;"	l
+dd	kernel.asm	/^dd k_sleep$/;"	l
+dd	kernel.asm	/^dd k_watch$/;"	l
+dd	kernel.asm	/^dd k_write$/;"	l
+debug_watch	debug.c	/^void debug_watch(u32 addr,int write_only){$/;"	f	signature:(u32 addr,int write_only)
+dec	proc.asm	/^dec dword [ienter]$/;"	l
+del_node	utils.c	/^void del_node(EMPTY_BLOCK*block){$/;"	f	signature:(EMPTY_BLOCK*block)
+detect_pci	tty.c	/^static void detect_pci(void);$/;"	p	file:	signature:(void)
+detect_pci	tty.c	/^static void detect_pci(void){$/;"	f	file:	signature:(void)
+dirblocks	fs_ext.c	/^static char*dirblocks;$/;"	v	file:
+dirblocks	fs_ext.cp	/^static char*dirblocks;$/;"	v	file:
+disk	tty.c	/^static void disk(void);$/;"	p	file:	signature:(void)
+disk	tty.c	/^static void disk(void){$/;"	f	file:	signature:(void)
+dispAX	disp.asm	/^dispAX:$/;"	l
+dispDword	disp.asm	/^dispDword:$/;"	l
+dispEAX	disp.asm	/^dispEAX:$/;"	l
+dispInt	disp.asm	/^dispInt:$/;"	l
+dispMem4	disp.asm	/^dispMem4:$/;"	l
+dispStr	disp.asm	/^dispStr:$/;"	l
+dispStr	garbage/cCallDispStr.c	/^extern void dispStr(char* str,int ahMod_c);$/;"	p	file:	signature:(char* str,int ahMod_c)
+dispStrn	disp.asm	/^dispStrn:$/;"	l
+divide_error	kernel.asm	/^divide_error:$/;"	l
+do	usr/src/hw.c	4;"	d	file:
+doNothing	boot.asm	/^doNothing:$/;"	l
+double_fault	kernel.asm	/^double_fault:$/;"	l
+dump_sys	utils.c	/^void dump_sys(){$/;"	f
+dw	boot.asm	/^dw 0xaa55$/;"	l
+eflags	proc.c	/^int eflags=0x1200;\/\/IOPL=1,STI$/;"	v
+empty_cmds	fs.c	/^static FS_COMMAND empty_cmds[MAX_CMD]; $/;"	v	file:
+entrance	boot.asm	/^entrance:$/;"	l
+errno	usr/include/errno.h	3;"	d
+exception_handler	kernel.asm	/^exception_handler:$/;"	l
+exception_handler_step1	kernel.asm	/^exception_handler_step1:$/;"	l
+extend_start	fs_ext.cp	/^static u32 extend_start=0;$/;"	v	file:
+extern	disp.asm	/^extern base_room_info32$/;"	l
+extern	disp.asm	/^extern selector_room_info32$/;"	l
+extern	disp.asm	/^extern selector_room_plain$/;"	l
+extern	disp.asm	/^extern selector_video$/;"	l
+extern	kernel.asm	/^extern _k_show_chars,k_sleep,k_obuffer_shift,_k_show_var,k_open,k_read,k_write,k_close,k_watch$/;"	l
+extern	kernel.asm	/^extern cCallDispStr$/;"	l
+extern	kernel.asm	/^extern cold$/;"	l
+extern	kernel.asm	/^extern dispMem4$/;"	l
+extern	kernel.asm	/^extern dump_sys$/;"	l
+extern	kernel.asm	/^extern getchar$/;"	l
+extern	kernel.asm	/^extern init8253$/;"	l
+extern	kernel.asm	/^extern init8259A$/;"	l
+extern	kernel.asm	/^extern kernel_c$/;"	l
+extern	kernel.asm	/^extern key_handler$/;"	l
+extern	kernel.asm	/^extern no_reenter$/;"	l
+extern	kernel.asm	/^extern proc_dispatch$/;"	l
+extern	kernel.asm	/^extern wake_hs,pgerr$/;"	l
+extern	proc.asm	/^extern dispEAX$/;"	l
+extern	proc.asm	/^extern dispStr$/;"	l
+extern	proc.asm	/^extern dispStrn$/;"	l
+extern	proc.asm	/^extern path_ring0$/;"	l
+extern	proc.asm	/^extern ring$/;"	l
+extern	proc.asm	/^extern selector_plain_c3$/;"	l
+extern	proc.asm	/^extern selector_plain_d3$/;"	l
+extern	proc.asm	/^extern size_stackframe$/;"	l
+extern	proc.asm	/^extern stack_position,ienter$/;"	l
+extern	proc.asm	/^extern tss$/;"	l
+extern	utils.asm	/^extern cpu_string$/;"	l
+extract_sh_offset	garbage/readEntry.asm	/^extract_sh_offset:$/;"	l
+ffs	debug/debug.c	14;"	d	file:
+fire	proc.c	/^void fire(int pid){$/;"	f	signature:(int pid)
+fire_asm	proc.asm	/^fire_asm:$/;"	l
+front_pid	tty.c	/^static int front_pid;$/;"	v	file:
+fs_ext	fs_ext.c	/^void fs_ext(void){$/;"	f	signature:(void)
+fs_ext	fs_ext.cp	/^void fs_ext(void){$/;"	f	signature:(void)
+fs_ext	kernel.c	/^extern void fs_ext(void);$/;"	p	file:	signature:(void)
+fsbuf	fs_ext.c	/^static char*fsbuf;$/;"	v	file:
+fsbuf	fs_ext.cp	/^static char*fsbuf;$/;"	v	file:
+func_arr	tty.c	/^static void (*func_arr[])()={$/;"	v	file:
+gdt	fs_ext.c	/^static GROUP_DESC*gdt;$/;"	v	file:
+gdt	fs_ext.cp	/^static GROUP_DESC*gdt;$/;"	v	file:
+gdt	kernel.asm	/^gdt:$/;"	l
+gdtPtr	boot.asm	/^gdtPtr:$/;"	l
+gdtPtr	kernel.asm	/^gdtPtr:$/;"	l
+general_protection	kernel.asm	/^general_protection:$/;"	l
+getDirentByName	fs_ext.c	/^DIRENT* getDirentByName(char*name,int inode_d){\/\/不能接受空字符串$/;"	f	signature:(char*name,int inode_d)
+getDirentByName	fs_ext.c	/^static DIRENT* getDirentByName(char*name,int inode_d);$/;"	p	file:	signature:(char*name,int inode_d)
+getDirentByName	fs_ext.cp	/^DIRENT* getDirentByName(char*name,int inode_d){\/\/不能接受空字符串$/;"	f	signature:(char*name,int inode_d)
+getDirentByName	fs_ext.cp	/^static DIRENT* getDirentByName(char*name,int inode_d);$/;"	p	file:	signature:(char*name,int inode_d)
+getEmpty	proc.c	/^int getEmpty(void){$/;"	f	signature:(void)
+getInode	fs_ext.c	/^static INODE*getInode(int inode_id);$/;"	p	file:	signature:(int inode_id)
+getInode	fs_ext.c	/^static INODE*getInode(int inode_id){$/;"	f	file:	signature:(int inode_id)
+getInode	fs_ext.cp	/^static INODE*getInode(int inode_id);$/;"	p	file:	signature:(int inode_id)
+getInode	fs_ext.cp	/^static INODE*getInode(int inode_id){$/;"	f	file:	signature:(int inode_id)
+getInodeByName	fs_ext.c	/^int getInodeByName(char*name,int inode_d){\/\/不能接受空字符串$/;"	f	signature:(char*name,int inode_d)
+getInodeByName	fs_ext.c	/^static int getInodeByName(char*name,int inode_d);$/;"	p	file:	signature:(char*name,int inode_d)
+getInodeByName	fs_ext.cp	/^int getInodeByName(char*name,int inode_d){\/\/不能接受空字符串$/;"	f	signature:(char*name,int inode_d)
+getInodeByName	fs_ext.cp	/^static int getInodeByName(char*name,int inode_d);$/;"	p	file:	signature:(char*name,int inode_d)
+getInodeByPath	fs_ext.c	/^int getInodeByPath(char*path){$/;"	f	signature:(char*path)
+getInodeByPath	fs_ext.c	/^static int getInodeByPath(char*name);$/;"	p	file:	signature:(char*name)
+getInodeByPath	fs_ext.cp	/^int getInodeByPath(char*path){$/;"	f	signature:(char*path)
+getInodeByPath	fs_ext.cp	/^static int getInodeByPath(char*name);$/;"	p	file:	signature:(char*name)
+get_offset	struinfo.c	/^int get_offset(int m_id);$/;"	p	file:	signature:(int m_id)
+get_offset	struinfo.c	/^int get_offset(int m_id){$/;"	f	signature:(int m_id)
+get_ppg	mm.c	/^int get_ppg(u32*dir,int vpg_id){$/;"	f	signature:(u32*dir,int vpg_id)
+get_ppg	mm.c.cp	/^int get_ppg(u32*dir,int vpg_id){$/;"	f	signature:(u32*dir,int vpg_id)
+get_start	video_drv.c	/^int get_start(void){$/;"	f	signature:(void)
+getchar	tty.c	/^int getchar(void){$/;"	f	signature:(void)
+getchar	usr/include/utils.h	/^int getchar(void);$/;"	p	signature:(void)
+getpid	usr/include/unistd.h	/^int getpid(void);$/;"	p	signature:(void)
+getpid	usr/src/unistd.c	/^int getpid(void){$/;"	f	signature:(void)
+global	disp.asm	/^global dispAX$/;"	l
+global	disp.asm	/^global dispEAX$/;"	l
+global	disp.asm	/^global dispInt$/;"	l
+global	disp.asm	/^global dispMem4;void dispMem4(unsigned*addr,int len);$/;"	l
+global	disp.asm	/^global dispStr$/;"	l
+global	disp.asm	/^global dispStrn$/;"	l
+global	garbage/idle.asm	/^global idle$/;"	l
+global	garbage/sysCall.asm	/^global sysCall_dispStr;void sysCall_dispStr(char*,u32 mod)$/;"	l
+global	kernel.asm	/^global _start$/;"	l
+global	kernel.asm	/^global base_room_info32$/;"	l
+global	kernel.asm	/^global crack_eip$/;"	l
+global	kernel.asm	/^global i20h$/;"	l
+global	kernel.asm	/^global ienter;中断进入的次数$/;"	l
+global	kernel.asm	/^global outofproc$/;"	l
+global	kernel.asm	/^global p3$/;"	l
+global	kernel.asm	/^global path_ring0;最后一次进入ring的途径$/;"	l
+global	kernel.asm	/^global ring;系统当前ring$/;"	l
+global	kernel.asm	/^global sec_data$/;"	l
+global	kernel.asm	/^global selector_plain_c3,selector_plain_d3,selector_plain_c1,selector_plain_d1,selector_plain_c0,selector_plain_d0;$/;"	l
+global	kernel.asm	/^global selector_room_info32$/;"	l
+global	kernel.asm	/^global selector_room_plain$/;"	l
+global	kernel.asm	/^global selector_video$/;"	l
+global	kernel.asm	/^global stack_position$/;"	l
+global	kernel.asm	/^global ticks$/;"	l
+global	kernel.asm	/^global tss$/;"	l
+global	proc.asm	/^global fire_asm$/;"	l
+global	usr/src/asmtask.asm	/^global idle,p1,p2$/;"	l
+global	usr/src/asmtask.asm	/^global p0_addr$/;"	l
+global	usr/src/sys_call.asm	/^global dotchar,sleep,u_obuffer_shift,show_chars,show_var,open,read,write,close,watch$/;"	l
+global	utils.asm	/^global in_byte,out_byte,port_read,send_hd_eoi,port_write,bt,bs,bc,br,bt0,detect_cpu,in_dw,out_dw$/;"	l
+global	utils.asm	/^global init8253$/;"	l
+global	utils.asm	/^global init8259A$/;"	l
+global_equal_map	mm.c	/^void global_equal_map(void){$/;"	f	signature:(void)
+heap_init	utils.c	/^void heap_init(void){$/;"	f	signature:(void)
+hex_int	ku_utils.c	/^int hex_int(char x){$/;"	f	signature:(char x)
+hlt	usr/src/asmtask.asm	/^hlt$/;"	l
+hs	hs.c	/^void hs(void){$/;"	f	signature:(void)
+hs	kernel.c	/^extern void hs(void);$/;"	p	file:	signature:(void)
+hs_cmd_init	hs.c	/^void hs_cmd_init(u32 lba,u32 count,u8 command,char*buf){\/\/这个函数对外开放，所以直接操作cmd，不用参数指定cmd，因为外界访问不到hs的cmd。$/;"	f	signature:(u32 lba,u32 count,u8 command,char*buf)
+hs_cmd_out	hs.c	/^void hs_cmd_out(HS_CMD*cmd){$/;"	f	signature:(HS_CMD*cmd)
+human_memsize	ku_utils.c	/^int*human_memsize(int size,int initial_scale_count){$/;"	f	signature:(int size,int initial_scale_count)
+human_memsize_into	ku_utils.c	/^void human_memsize_into(int*gmkb,int size,int initial_scale_count){$/;"	f	signature:(int*gmkb,int size,int initial_scale_count)
+i2fh	kernel.asm	/^i2fh:$/;"	l
+i30h	kernel.asm	/^i30h:$/;"	l
+id	struinfo.c	/^int id=0;$/;"	v
+identify_info	hs.c	/^void identify_info(void){$/;"	f	signature:(void)
+idle	usr/src/asmtask.asm	/^idle:$/;"	l
+idt	kernel.asm	/^idt:$/;"	l
+idtPtr	kernel.asm	/^idtPtr:$/;"	l
+in_byte	utils.asm	/^in_byte: ;char in_byte(int port)$/;"	l
+in_dw	utils.asm	/^in_dw: ;u32 in_dw(int port)$/;"	l
+inc	usr/src/asmtask.asm	/^inc byte [p0_addr]$/;"	l
+inc	usr/src/asmtask.asm	/^inc byte[p0_addr+2*2]$/;"	l
+inc	usr/src/asmtask.asm	/^inc eax$/;"	l
+info	debug/debug.c	/^void info(void){$/;"	f	signature:(void)
+infoNum_cell	garbage/heap.c	/^int infoNum_cell(int type){$/;"	f	signature:(int type)
+infoNum_cell2	garbage/heap.c	/^int infoNum_cell2(){$/;"	f
+infoSize_cell	garbage/heap.c	/^void infoSize_cell(){$/;"	f
+infoTotal_cell	garbage/heap.c	/^int infoTotal_cell(){$/;"	f
+info_dpt	fs_ext.cp	/^static void info_dpt(void){$/;"	f	file:	signature:(void)
+info_extend	fs_ext.cp	/^static void info_extend(u32 ept_lba){$/;"	f	file:	signature:(u32 ept_lba)
+info_heap	utils.c	/^void info_heap(void){$/;"	f	signature:(void)
+info_pcb_table_info	tty.c	/^static void info_pcb_table_info(void);$/;"	p	file:	signature:(void)
+info_pcb_table_info	tty.c	/^static void info_pcb_table_info(void){$/;"	f	file:	signature:(void)
+init	fs_ext.c	/^static void init(void);$/;"	p	file:	signature:(void)
+init	fs_ext.c	/^void init(void){$/;"	f	signature:(void)
+init	fs_ext.cp	/^static void init(void);$/;"	p	file:	signature:(void)
+init	fs_ext.cp	/^void init(void){$/;"	f	signature:(void)
+init	mm.c	/^static void init(void);$/;"	p	file:	signature:(void)
+init	mm.c	/^static void init(void){$/;"	f	file:	signature:(void)
+init	mm.c.cp	/^static void init(void);$/;"	p	file:	signature:(void)
+init	mm.c.cp	/^static void init(void){$/;"	f	file:	signature:(void)
+init8253	utils.asm	/^init8253:$/;"	l
+init8259A	utils.asm	/^init8259A:$/;"	l
+initHeap	garbage/heap.c	/^int initHeap(){$/;"	f
+init_asciis_buffer	disp.c	/^void init_asciis_buffer(void){$/;"	f	signature:(void)
+init_debug	debug.c	/^void init_debug(void){$/;"	f	signature:(void)
+init_fs	fs.c	/^void init_fs(void){$/;"	f	signature:(void)
+init_fs_ext_cmd	fs_ext.cp	/^void init_fs_ext_cmd(int command,char*path,char*addr,int asker,int dp_lba){$/;"	f	signature:(int command,char*path,char*addr,int asker,int dp_lba)
+init_g_dp	fs_ext.c	/^static void init_g_dp(void){$/;"	f	file:	signature:(void)
+init_g_dp_extend	fs_ext.c	/^static void init_g_dp_extend(u32 ept_lba,u32 extend_start){$/;"	f	file:	signature:(u32 ept_lba,u32 extend_start)
+inodesector	fs_ext.c	/^static INODE*inodesector;$/;"	v	file:
+inodesector	fs_ext.cp	/^static INODE*inodesector;$/;"	v	file:
+insert_after	utils.c	/^void insert_after(EMPTY_BLOCK*mother,EMPTY_BLOCK*block){$/;"	f	signature:(EMPTY_BLOCK*mother,EMPTY_BLOCK*block)
+int	boot.asm	/^int 13h$/;"	l
+internal_nlist	debug/debug.c	/^typedef struct internal_nlist$/;"	s	file:
+internal_nlist::n_desc	debug/debug.c	/^unsigned short n_desc; \/* description field *\/$/;"	m	struct:internal_nlist	file:	access:public
+internal_nlist::n_other	debug/debug.c	/^unsigned char n_other; \/* misc info (usually empty) *\/$/;"	m	struct:internal_nlist	file:	access:public
+internal_nlist::n_strx	debug/debug.c	/^unsigned  n_strx; \/* index into string table of name *\/$/;"	m	struct:internal_nlist	file:	access:public
+internal_nlist::n_type	debug/debug.c	/^unsigned char n_type; \/* type of symbol *\/$/;"	m	struct:internal_nlist	file:	access:public
+internal_nlist::n_value	debug/debug.c	/^unsigned n_value; \/* value of symbol *\/$/;"	m	struct:internal_nlist	file:	access:public
+inval_opcode	kernel.asm	/^inval_opcode:$/;"	l
+inval_tss	kernel.asm	/^inval_tss:$/;"	l
+iretd	proc.asm	/^iretd$/;"	l
+is_there_cmd_wait	fs.c	/^FS_COMMAND*is_there_cmd_wait(void){$/;"	f	signature:(void)
+jmp	boot.asm	/^jmp \$$/;"	l
+jmp	boot.asm	/^jmp dword selector_plain_c0:base_entrance_kernel$/;"	l
+jmp	garbage/readEntry.asm	/^jmp $;can not find [.text]$/;"	l
+jmp	kernel.asm	/^jmp _reallystart$/;"	l
+jmp	kernel.asm	/^jmp kernel_c;$/;"	l
+jmp	kernel.asm	/^jmp selector_plain_c0:newcs ;update cs$/;"	l
+jmp	usr/src/asmtask.asm	/^jmp idle$/;"	l
+jmp	usr/src/asmtask.asm	/^jmp p1$/;"	l
+jmp	usr/src/asmtask.asm	/^jmp p2$/;"	l
+jnc	boot.asm	/^jnc read_ok$/;"	l
+k_checkbound	disp.c	/^void k_checkbound(void){$/;"	f	signature:(void)
+k_close	func_table.c	/^void k_close(){$/;"	f
+k_eheader	debug.c	5;"	d	file:
+k_obuffer_shift	func_table.c	/^int k_obuffer_shift(void){$/;"	f	signature:(void)
+k_open	func_table.c	/^void k_open(char*path,int mod){$/;"	f	signature:(char*path,int mod)
+k_read	func_table.c	/^void k_read(int fd,char*buf,int size){$/;"	f	signature:(int fd,char*buf,int size)
+k_screen_reset	disp.c	/^void k_screen_reset(void){$/;"	f	signature:(void)
+k_scroll	disp.c	/^void k_scroll(void){$/;"	f	signature:(void)
+k_seek	func_table.c	/^void k_seek(int fd,int offset,int whence){$/;"	f	signature:(int fd,int offset,int whence)
+k_sheader	debug.c	/^static Elf32_Shdr* k_sheader;$/;"	v	file:
+k_show_chars	disp.c	/^void k_show_chars(char*pt_head,u32 end_flag){\/\/这个函数直接支持printf的%*s，即制定宽度,看width-->0$/;"	f	signature:(char*pt_head,u32 end_flag)
+k_show_var	disp.c	/^void k_show_var(unsigned x,int val_type){$/;"	f	signature:(unsigned x,int val_type)
+k_sleep	func_table.c	/^void k_sleep(int msg_type,int msg_bind){$/;"	f	signature:(int msg_type,int msg_bind)
+k_watch	func_table.c	/^void k_watch(u32 addr,int write_only){$/;"	f	signature:(u32 addr,int write_only)
+k_write	func_table.c	/^void k_write(void){$/;"	f	signature:(void)
+kernelRelyO	makefile	/^kernelRelyO= ..\/lib\/kernel.o ..\/lib\/kernel_c.o  ..\/lib\/proc_asm.o ..\/lib\/utils.o ..\/lib\/proc.o ..\/lib\/kbd_drv.o ..\/lib\/utils_asm.o   ..\/lib\/func_table.o $(usro) ..\/lib\/disp_c.o ..\/lib\/video_drv.o ..\/lib\/ku_utils.o ..\/lib\/hs.o  ..\/lib\/fs_ext.o ..\/lib\/struinfo.o  ..\/lib\/mm.o ..\/lib\/fs.o ..\/lib\/tty.o ..\/lib\/debug.o$/;"	m
+kernel_c	kernel.c	/^void kernel_c(){$/;"	f
+kernelsection	debug.c	/^void kernelsection(void){$/;"	f	signature:(void)
+kernelsectionn	tty.c	/^static void kernelsectionn(void);$/;"	p	file:	signature:(void)
+kernelsectionn	tty.c	/^static void kernelsectionn(void){$/;"	f	file:	signature:(void)
+key_handler	kbd_drv.c	/^void  key_handler(void){$/;"	f	signature:(void)
+keymap	kbd_drv.c	/^unsigned char keymap[NR_SCAN_CODES * MAP_COLS]   = {$/;"	v
+kfree	utils.c	/^void kfree(void*pt){$/;"	f	signature:(void*pt)
+kfreee	tty.c	/^static void kfreee(void);$/;"	p	file:	signature:(void)
+kfreee	tty.c	/^static void kfreee(void){$/;"	f	file:	signature:(void)
+kill	proc.c	/^void kill(int pid){$/;"	f	signature:(int pid)
+kmalloc	utils.c	/^void*kmalloc(int byte){$/;"	f	signature:(int byte)
+kmallocc	tty.c	/^static void kmallocc(void);$/;"	p	file:	signature:(void)
+kmallocc	tty.c	/^static void kmallocc(void){$/;"	f	file:	signature:(void)
+lea	disp.asm	/^lea ebx,[ebx+ecx*4-4];point ebx to highest-addr$/;"	l
+lea	proc.asm	/^lea eax,[esp+ebx]$/;"	l
+len_bounds_check	kernel.asm	/^len_bounds_check equ $-bounds_check$/;"	d
+len_breakPoint	kernel.asm	/^len_breakPoint equ $-breakPoint$/;"	d
+len_copr_error	kernel.asm	/^len_copr_error equ $-copr_error$/;"	d
+len_copr_not_avialable	kernel.asm	/^len_copr_not_avialable equ $-copr_not_avialable$/;"	d
+len_copr_seg_overrun	kernel.asm	/^len_copr_seg_overrun equ $-copr_seg_overrun$/;"	d
+len_divide_error	kernel.asm	/^len_divide_error equ $-divide_error$/;"	d
+len_double_fault	kernel.asm	/^len_double_fault equ $-double_fault$/;"	d
+len_gdt	boot.asm	/^len_gdt equ $-gdt$/;"	d
+len_gdt	kernel.asm	/^len_gdt equ $-gdt$/;"	d
+len_general_protection	kernel.asm	/^len_general_protection equ $-general_protection$/;"	d
+len_idt	kernel.asm	/^len_idt equ $-idt$/;"	d
+len_inval_opcode	kernel.asm	/^len_inval_opcode equ $-inval_opcode$/;"	d
+len_inval_tss	kernel.asm	/^len_inval_tss equ $-inval_tss$/;"	d
+len_nmi	kernel.asm	/^len_nmi equ $-nmi$/;"	d
+len_overflow	kernel.asm	/^len_overflow equ $-overflow$/;"	d
+len_page_fault	kernel.asm	/^len_page_fault equ  $-page_fault$/;"	d
+len_segment_not_present	kernel.asm	/^len_segment_not_present equ $-segment_not_present$/;"	d
+len_single_step	kernel.asm	/^len_single_step equ $-single_step$/;"	d
+len_stack_error	kernel.asm	/^len_stack_error equ $-stack_error$/;"	d
+len_tss	kernel.asm	/^len_tss equ $-tss$/;"	d
+lens	struinfo.c	/^int*lens=0;$/;"	v
+lgdt	boot.asm	/^lgdt [gdtPtr]$/;"	l
+lgdt	kernel.asm	/^lgdt [gdtPtr];switch gdt,selector for ds prepared during boot.bin$/;"	l
+lidt	kernel.asm	/^lidt [idtPtr]$/;"	l
+loadFileByInode	fs_ext.c	/^static void loadFileByInode(int inode_id,char*_load_addr);$/;"	p	file:	signature:(int inode_id,char*_load_addr)
+loadFileByInode	fs_ext.c	/^void loadFileByInode(int inode_id,char*_load_addr){$/;"	f	signature:(int inode_id,char*_load_addr)
+loadFileByInode	fs_ext.cp	/^static void loadFileByInode(int inode_id,char*_load_addr);$/;"	p	file:	signature:(int inode_id,char*_load_addr)
+loadFileByInode	fs_ext.cp	/^void loadFileByInode(int inode_id,char*_load_addr){$/;"	f	signature:(int inode_id,char*_load_addr)
+loadPartByInode	fs_ext.c	/^static void loadPartByInode(){$/;"	f	file:
+loadPartByInode	fs_ext.c	/^static void loadPartByInode(void);$/;"	p	file:	signature:(void)
+load_addr	fs_ext.cp	/^static char*load_addr=0;$/;"	v	file:
+loadblocks	fs_ext.cp	/^static void loadblocks(int seedblock,int depth,char*_load_addr,int _block_limit);$/;"	p	file:	signature:(int seedblock,int depth,char*_load_addr,int _block_limit)
+loadblocks	fs_ext.cp	/^void loadblocks(int seedblock,int depth,char*_load_addr,int _blocks_limit){$/;"	f	signature:(int seedblock,int depth,char*_load_addr,int _blocks_limit)
+loadbuf	proc.c	/^static char*loadbuf;$/;"	v	file:
+loadbuf	tty.c	/^static char*loadbuf;$/;"	v	file:
+loader	tty.c	/^static void loader(char*path);$/;"	p	file:	signature:(char*path)
+loader	tty.c	/^static void loader(char*path){$/;"	f	file:	signature:(char*path)
+loop	boot.asm	/^loop search_ph_typeLoaded$/;"	l
+loop	disp.asm	/^loop dispDword$/;"	l
+loop	garbage/readEntry.asm	/^loop search_section_text$/;"	l
+ls	tty.c	/^static void ls(char*path);$/;"	p	file:	signature:(char*path)
+ls	tty.c	/^static void ls(char*path){$/;"	f	file:	signature:(char*path)
+ltr	kernel.asm	/^ltr ax$/;"	l
+main	debug/debug.c	/^void main(int argc,char*argv[]){$/;"	f	signature:(int argc,char*argv[])
+main	garbage/t.c	/^void main(void){$/;"	f	signature:(void)
+main	usr/src/t.c	/^void main(void){$/;"	f	signature:(void)
+map_pg	mm.c	/^void map_pg(u32*dir,int vpg_id,int ppg_id,int us,int rw){$/;"	f	signature:(u32*dir,int vpg_id,int ppg_id,int us,int rw)
+map_pg	mm.c.cp	/^void map_pg(u32*dir,int vpg_id,int ppg_id,int us,int rw){$/;"	f	signature:(u32*dir,int vpg_id,int ppg_id,int us,int rw)
+meetEOF	disp.asm	/^meetEOF:$/;"	l
+memcp	ku_utils.c	/^void memcp(char*dest,char*src,int byte){$/;"	f	signature:(char*dest,char*src,int byte)
+memcp	usr/include/utils.h	/^void  memcp(char*dest,char*src,int bytes);$/;"	p	signature:(char*dest,char*src,int bytes)
+memcpy	usr/src/utils.c	/^void memcpy(char*dest,char*src,int bytes){$/;"	f	signature:(char*dest,char*src,int bytes)
+memcpy	utils.c	/^void memcpy(char*dest,char*src,int bytes){$/;"	f	signature:(char*dest,char*src,int bytes)
+memset	ku_utils.c	/^void memset(char*dest,int byte,int value){$/;"	f	signature:(char*dest,int byte,int value)
+memsetw	ku_utils.c	/^void memsetw(u16*dest,int word,u16 value){$/;"	f	signature:(u16*dest,int word,u16 value)
+mm	kernel.c	/^extern void mm(void);$/;"	p	file:	signature:(void)
+mm	mm.c	/^void mm(void){$/;"	f	signature:(void)
+mm	mm.c.cp	/^void mm(void){$/;"	f	signature:(void)
+mount	fs.c	/^boolean mount(char*mountpoint,short device,short partation){$/;"	f	signature:(char*mountpoint,short device,short partation)
+mountinfo	fs.c	/^static MOUNT_INFO mountinfo[MAX_MOUNT_INFO];$/;"	v	file:
+mov	boot.asm	/^mov  bx,[bx+28];ERR e_phoff should be 32-bit,here ignore high-16 bit$/;"	l
+mov	boot.asm	/^mov  cx,[bx+44];e_phnum$/;"	l
+mov	boot.asm	/^mov  dx,[bx+42];e_phentsz$/;"	l
+mov	boot.asm	/^mov ah,42h$/;"	l
+mov	boot.asm	/^mov ax,0$/;"	l
+mov	boot.asm	/^mov ax,base_kernel_loaded$/;"	l
+mov	boot.asm	/^mov ax,selector_plain_d0$/;"	l
+mov	boot.asm	/^mov bx,0$/;"	l
+mov	boot.asm	/^mov dl,80h$/;"	l
+mov	boot.asm	/^mov ds,ax$/;"	l
+mov	boot.asm	/^mov si,dap$/;"	l
+mov	disp.asm	/^mov al,'0'$/;"	l
+mov	disp.asm	/^mov al,'x' ;the value shall end with a space$/;"	l
+mov	disp.asm	/^mov ax,selector_room_info32$/;"	l
+mov	disp.asm	/^mov ax,selector_room_plain$/;"	l
+mov	disp.asm	/^mov ax,selector_video$/;"	l
+mov	disp.asm	/^mov ds,ax$/;"	l
+mov	disp.asm	/^mov eax,[ebx]$/;"	l
+mov	disp.asm	/^mov eax,[ss:ebp];send arg-ahMod to ah$/;"	l
+mov	disp.asm	/^mov eax,[ss:esp+4]$/;"	l
+mov	disp.asm	/^mov ebp,esp$/;"	l
+mov	disp.asm	/^mov ebx,[esp+8];ebx=addr$/;"	l
+mov	disp.asm	/^mov ecx,4$/;"	l
+mov	disp.asm	/^mov ecx,8 ;ATTEN dispEAX.asm differ from dispAX.asm just at here,this 8,with that 4$/;"	l
+mov	disp.asm	/^mov ecx,[esp+12];ecx=len$/;"	l
+mov	disp.asm	/^mov edi,4;format 11112222h,a 32-bit register cost 8 bytes for descriping,and 4 bit for others$/;"	l
+mov	disp.asm	/^mov edi,[ds:0] ;recorver text-pointer$/;"	l
+mov	disp.asm	/^mov es,ax$/;"	l
+mov	disp.asm	/^mov es,ax;set gs point to seg_video,es:edi act text-pointer$/;"	l
+mov	disp.asm	/^mov esi,[ss:ebp]$/;"	l
+mov	disp.asm	/^mov esp,ebp$/;"	l
+mov	disp.asm	/^mov fs,ax;fs:edi acts pointer to string $/;"	l
+mov	garbage/readEntry.asm	/^mov  bx,[bx+32];ERR e_shoff should be 32-bit,here ignore high-16 bit$/;"	l
+mov	garbage/readEntry.asm	/^mov  cx,[bx+48];e_shnum$/;"	l
+mov	garbage/readEntry.asm	/^mov  di,[bx+46];e_shentsz$/;"	l
+mov	garbage/readEntry.asm	/^mov  edx,[bx+24];e_entry$/;"	l
+mov	garbage/readEntry.asm	/^mov ax,base_kernel_loaded$/;"	l
+mov	garbage/readEntry.asm	/^mov bx,0$/;"	l
+mov	garbage/readEntry.asm	/^mov ds,ax$/;"	l
+mov	garbage/readEntry.asm	/^mov si,0$/;"	l
+mov	kernel.asm	/^mov [es:0],edi;now room_info32 inited $/;"	l
+mov	kernel.asm	/^mov [kernel_esp],esp$/;"	l
+mov	kernel.asm	/^mov ax,selector_plain_d0$/;"	l
+mov	kernel.asm	/^mov ax,selector_room_info32$/;"	l
+mov	kernel.asm	/^mov ax,selector_tss$/;"	l
+mov	kernel.asm	/^mov ax,selector_video$/;"	l
+mov	kernel.asm	/^mov ds,ax$/;"	l
+mov	kernel.asm	/^mov edi,0;init video-pointer$/;"	l
+mov	kernel.asm	/^mov es,ax$/;"	l
+mov	kernel.asm	/^mov esp,base_kernelStack;the stack start at 7f00h ERR be care for stack will boiled$/;"	l
+mov	kernel.asm	/^mov fs,ax$/;"	l
+mov	kernel.asm	/^mov gs,ax$/;"	l
+mov	kernel.asm	/^mov ss,ax$/;"	l
+mov	proc.asm	/^mov al,20h$/;"	l
+mov	proc.asm	/^mov dword [ring],3$/;"	l
+mov	proc.asm	/^mov dword [stack_position],pcb_from_kernel;堆栈切换到pcb了$/;"	l
+mov	proc.asm	/^mov dword [stack_position],user;注意，这里堆栈只是准备切换到用户态，但不排除iretd出问题$/;"	l
+mov	proc.asm	/^mov dword [tss+tss_esp0_offset],eax;register pcb.stackframe.bottom in tss.esp0$/;"	l
+mov	proc.asm	/^mov ebx,[size_stackframe]  $/;"	l
+mov	proc.asm	/^mov esp,[esp+4];point esp to addr_pcb,and reset kernel stack$/;"	l
+n_desc	debug/debug.c	/^unsigned short n_desc; \/* description field *\/$/;"	m	struct:internal_nlist	file:	access:public
+n_other	debug/debug.c	/^unsigned char n_other; \/* misc info (usually empty) *\/$/;"	m	struct:internal_nlist	file:	access:public
+n_strx	debug/debug.c	/^unsigned  n_strx; \/* index into string table of name *\/$/;"	m	struct:internal_nlist	file:	access:public
+n_type	debug/debug.c	/^unsigned char n_type; \/* type of symbol *\/$/;"	m	struct:internal_nlist	file:	access:public
+n_value	debug/debug.c	/^unsigned n_value; \/* value of symbol *\/$/;"	m	struct:internal_nlist	file:	access:public
+names	struinfo.c	/^char**names=0;$/;"	v
+new_cmd	fs.c	/^FS_COMMAND* new_cmd(void){$/;"	f	signature:(void)
+new_fd	fs.c	/^int new_fd(void){$/;"	f	signature:(void)
+nmi	kernel.asm	/^nmi:$/;"	l
+no_reenter	utils.c	/^void no_reenter(){$/;"	f
+num_members	struinfo.c	/^int num_members=0;$/;"	v
+obuffer_init	proc.c	/^void obuffer_init(OBUFFER* pt_obuffer){$/;"	f	signature:(OBUFFER* pt_obuffer)
+obuffer_push	proc.c	/^void obuffer_push(OBUFFER* pt_obuffer,char c){$/;"	f	signature:(OBUFFER* pt_obuffer,char c)
+obuffer_shift	proc.c	/^unsigned char obuffer_shift(OBUFFER* pt_obuffer){$/;"	f	signature:(OBUFFER* pt_obuffer)
+ofree	garbage/heap.c	/^int ofree(void* pt){$/;"	f	signature:(void* pt)
+old_ticks	proc.c	/^static u32 old_ticks=0;$/;"	v	file:
+omalloc	garbage/heap.c	/^void* omalloc(unsigned num4){$/;"	f	signature:(unsigned num4)
+open	usr/include/unistd.h	/^int open(char*path,int mod);$/;"	p	signature:(char*path,int mod)
+openA20	boot.asm	/^openA20:$/;"	l
+openfile	fs_ext.cp	/^static int openfile(char*path,char*addr);$/;"	p	file:	signature:(char*path,char*addr)
+openfile	fs_ext.cp	/^static int openfile(char*path,char*addr){$/;"	f	file:	signature:(char*path,char*addr)
+oprintf	disp.c	/^void oprintf(char*format,...){$/;"	f	signature:(char*format,...)
+org	boot.asm	/^org 0x7c00$/;"	l
+out	proc.asm	/^out 20h,al$/;"	l
+out_dw	utils.asm	/^out_dw: ;void out_dw(int port,u32 value)$/;"	l
+overflow	kernel.asm	/^overflow:$/;"	l
+p0_addr	usr/src/asmtask.asm	/^p0_addr equ 0xb8000$/;"	d
+p1	usr/src/asmtask.asm	/^p1:$/;"	l
+p2	usr/src/asmtask.asm	/^p2:$/;"	l
+p3	kernel.c	/^extern void p3(void);$/;"	p	file:	signature:(void)
+p4	kernel.c	/^extern void p4(void);$/;"	p	file:	signature:(void)
+page_fault	kernel.asm	/^page_fault:$/;"	l
+parse_cmd_asciis	tty.c	/^void parse_cmd_asciis(){\/\/一个粗略的命令解析函数$/;"	f
+pgbmp	mm.c	/^static u8 *pgbmp;$/;"	v	file:
+pgbmp	mm.c.cp	/^static u8 *pgbmp;$/;"	v	file:
+pgerr	mm.c	/^void pgerr(void){$/;"	f	signature:(void)
+pgerr	mm.c.cp	/^void pgerr(void){$/;"	f	signature:(void)
+pickNext	proc.c	/^int pickNext(void){\/\/return  min_prio active process's pid$/;"	f	signature:(void)
+pop	disp.asm	/^	pop ds$/;"	d
+pop	disp.asm	/^pop eax$/;"	l
+pop	disp.asm	/^pop ebp$/;"	l
+pop	disp.asm	/^pop ebx$/;"	l
+pop	disp.asm	/^pop ecx$/;"	l
+pop	disp.asm	/^pop edi$/;"	l
+pop	disp.asm	/^pop es$/;"	l
+pop	proc.asm	/^pop ds$/;"	d
+pop	proc.asm	/^pop es$/;"	l
+pop	proc.asm	/^pop fs$/;"	l
+pop	proc.asm	/^pop gs$/;"	l
+popad	proc.asm	/^popad$/;"	l
+pow_int	ku_utils.c	/^int pow_int(int base,int exp){$/;"	f	signature:(int base,int exp)
+printb8000	test.c	/^void  printb8000(){$/;"	f
+printf	struinfo.c	7;"	d	file:
+printf	usr/include/utils.h	/^void printf(char*format,...);$/;"	p	signature:(char*format,...)
+printf	usr/src/utils.c	/^void printf(char*format,...){$/;"	f	signature:(char*format,...)
+proc_dispatch	proc.c	/^void proc_dispatch(void){$/;"	f	signature:(void)
+proc_get_ppg	mm.c	/^int proc_get_ppg(int pid,int vpg_id){$/;"	f	signature:(int pid,int vpg_id)
+proc_get_ppg	mm.c.cp	/^int proc_get_ppg(int pid,int vpg_id){$/;"	f	signature:(int pid,int vpg_id)
+proc_init	proc.c	/^void proc_init(void){$/;"	f	signature:(void)
+proc_init_pcb	proc.c	/^static void proc_init_pcb(int pid_empty,u32 addr,int prio,int time_slice,char*p_name,int ring);$/;"	p	file:	signature:(int pid_empty,u32 addr,int prio,int time_slice,char*p_name,int ring)
+proc_init_pcb	proc.c	/^static void proc_init_pcb(int pid_empty,u32 addr,int prio,int time_slice,char*p_name,int ring){$/;"	f	file:	signature:(int pid_empty,u32 addr,int prio,int time_slice,char*p_name,int ring)
+proc_init_vspace	proc.c	/^static int proc_init_vspace(int pid,char*exec_file);$/;"	p	file:	signature:(int pid,char*exec_file)
+proc_init_vspace	proc.c	/^static int proc_init_vspace(int pid,char*exec_file){$/;"	f	file:	signature:(int pid,char*exec_file)
+proc_load_seg	proc.c	/^static void proc_load_seg(int pid,Elf32_Phdr*ph);$/;"	p	file:	signature:(int pid,Elf32_Phdr*ph)
+proc_load_seg	proc.c	/^static void proc_load_seg(int pid,Elf32_Phdr*ph){$/;"	f	file:	signature:(int pid,Elf32_Phdr*ph)
+proc_map_kpg	mm.c	/^void proc_map_kpg(int pid){\/\/ERR 暂时的kernel page都是用户可读写的$/;"	f	signature:(int pid)
+proc_map_kpg	mm.c.cp	/^void proc_map_kpg(int pid){\/\/ERR 暂时的kernel page都是用户可读写的$/;"	f	signature:(int pid)
+proc_map_pg	mm.c	/^void proc_map_pg(int pid,int vpg_id,int ppg_id,int us,int rw){$/;"	f	signature:(int pid,int vpg_id,int ppg_id,int us,int rw)
+proc_map_pg	mm.c.cp	/^void proc_map_pg(int pid,int vpg_id,int ppg_id,int rw){$/;"	f	signature:(int pid,int vpg_id,int ppg_id,int rw)
+proc_map_stackpg	mm.c	/^void proc_map_stackpg(int pid){$/;"	f	signature:(int pid)
+ps	tty.c	/^static void ps(void);$/;"	p	file:	signature:(void)
+ps	tty.c	/^static void ps(void){$/;"	f	file:	signature:(void)
+pt_cmd	fs_ext.c	/^static  FS_COMMAND*pt_cmd;$/;"	v	file:
+pt_cmd	tty.c	/^static char* pt_cmd=0;$/;"	v	file:
+pt_rootHeader	garbage/heap.c	/^static HEADER_HEAPCELL*pt_rootHeader=(HEADER_HEAPCELL*)(BASE_HEAP);$/;"	v	file:
+pt_video	disp.c	/^static char* pt_video=(char*)0xb8000;$/;"	v	file:
+push	disp.asm	/^	push ds$/;"	d
+push	disp.asm	/^push ds$/;"	d
+push	disp.asm	/^push eax$/;"	l
+push	disp.asm	/^push ebp$/;"	l
+push	disp.asm	/^push ebx$/;"	l
+push	disp.asm	/^push ecx$/;"	l
+push	disp.asm	/^push edi$/;"	l
+push	disp.asm	/^push es$/;"	l
+push	disp.asm	/^push esi$/;"	l
+push	disp.asm	/^push fs$/;"	l
+push	kernel.asm	/^	push ds$/;"	d
+push	kernel.asm	/^push  11931 ;1193180\/100$/;"	l
+push	kernel.asm	/^push 11111000b$/;"	l
+push	usr/src/asmtask.asm	/^push 100$/;"	l
+read_cmos	tty.c	/^static int read_cmos(int addr);$/;"	p	file:	signature:(int addr)
+read_cmos	tty.c	/^static int read_cmos(int addr){$/;"	f	file:	signature:(int addr)
+read_error	boot.asm	/^read_error:$/;"	l
+read_member	struinfo.c	/^unsigned read_member(int m_id);$/;"	p	file:	signature:(int m_id)
+read_member	struinfo.c	/^unsigned read_member(int m_id){$/;"	f	signature:(int m_id)
+read_ok	boot.asm	/^read_ok:$/;"	l
+releasefd	fs.c	/^void releasefd(int fd){$/;"	f	signature:(int fd)
+resetKernel	boot.asm	/^resetKernel:$/;"	l
+reset_cmd_asciis	tty.c	/^void reset_cmd_asciis(){$/;"	f
+ret	disp.asm	/^ret $/;"	l
+ret	disp.asm	/^ret$/;"	l
+return_say	debug/debug.c	13;"	d	file:
+ring0_smallstack_bottom	kernel.asm	/^ring0_smallstack_bottom:$/;"	l
+ring0_smallstack_iretd	kernel.asm	/^ring0_smallstack_iretd:$/;"	l
+ring0_smallstack_top	kernel.asm	/^ring0_smallstack_top:$/;"	l
+s	hs.c	/^static char s[64];$/;"	v	file:
+sb	fs_ext.c	/^static SUPER_BLOCK sb;$/;"	v	file:
+sb	fs_ext.cp	/^static SUPER_BLOCK sb;$/;"	v	file:
+search_ph_typeLoaded	boot.asm	/^search_ph_typeLoaded:$/;"	l
+search_section_text	garbage/readEntry.asm	/^search_section_text:$/;"	l
+sec_data	kernel.asm	/^sec_data:$/;"	l
+segment_not_present	kernel.asm	/^segment_not_present:$/;"	l
+selector_pgDir	kernel.asm	/^selector_pgDir equ gdt.desc_pgDir-gdt$/;"	d
+selector_pgTbl	kernel.asm	/^selector_pgTbl equ gdt.desc_pgTbl-gdt$/;"	d
+selector_plain_c	proc.c	/^static int selector_plain_c[4]={(int)&selector_plain_c0,(int)&selector_plain_c1,0,(int)&selector_plain_c3};$/;"	v	file:
+selector_plain_c0	boot.asm	/^selector_plain_c0 equ gdt.desc_plain_c0-gdt$/;"	d
+selector_plain_c0	kernel.asm	/^selector_plain_c0 equ gdt.desc_plain_c0-gdt$/;"	d
+selector_plain_c1	kernel.asm	/^selector_plain_c1 equ gdt.desc_plain_c1-gdt+SA_RPL1$/;"	d
+selector_plain_c3	kernel.asm	/^selector_plain_c3 equ gdt.desc_plain_c3-gdt+SA_RPL3$/;"	d
+selector_plain_d	proc.c	/^static int selector_plain_d[4]={(int)&selector_plain_d0,(int)&selector_plain_d1,0,(int)&selector_plain_d3};$/;"	v	file:
+selector_plain_d0	boot.asm	/^selector_plain_d0 equ gdt.desc_plain_d0-gdt$/;"	d
+selector_plain_d0	kernel.asm	/^selector_plain_d0 equ gdt.desc_plain_d0-gdt$/;"	d
+selector_plain_d1	kernel.asm	/^selector_plain_d1 equ gdt.desc_plain_d1-gdt+SA_RPL1$/;"	d
+selector_plain_d3	kernel.asm	/^selector_plain_d3 equ gdt.desc_plain_d3-gdt+SA_RPL3$/;"	d
+selector_room_info32	kernel.asm	/^selector_room_info32 equ gdt.desc_room_info32-gdt$/;"	d
+selector_room_plain	kernel.asm	/^selector_room_plain equ gdt.desc_room_plain-gdt$/;"	d
+selector_tss	kernel.asm	/^selector_tss equ gdt.desc_tss-gdt$/;"	d
+selector_video	kernel.asm	/^selector_video equ gdt.desc_video-gdt$/;"	d
+send_hd_eoi	utils.asm	/^send_hd_eoi:$/;"	l
+set_cursor	video_drv.c	/^void set_cursor(unsigned pos){$/;"	f	signature:(unsigned pos)
+set_pgbmp	mm.c	/^static void set_pgbmp(int start_page,int pages);$/;"	p	file:	signature:(int start_page,int pages)
+set_pgbmp	mm.c	/^static void set_pgbmp(int start_page,int pages){$/;"	f	file:	signature:(int start_page,int pages)
+set_pgbmp	mm.c.cp	/^static void set_pgbmp(int start_page,int pages);$/;"	p	file:	signature:(int start_page,int pages)
+set_pgbmp	mm.c.cp	/^static void set_pgbmp(int start_page,int pages){$/;"	f	file:	signature:(int start_page,int pages)
+set_start	video_drv.c	/^void set_start(u32 pos){$/;"	f	signature:(u32 pos)
+sheader	debug/debug.c	/^Elf32_Shdr* sheader;$/;"	v
+shift_down	kbd_drv.c	/^static int shift_down=0;$/;"	v	file:
+show_asciis_buffer	disp.c	/^void show_asciis_buffer(void){$/;"	f	signature:(void)
+show_bigmember	struinfo.c	/^void show_bigmember(int m_id);$/;"	p	file:	signature:(int m_id)
+show_bigmember	struinfo.c	/^void show_bigmember(int m_id){$/;"	f	signature:(int m_id)
+show_chars	usr/include/sys_call.h	/^void show_chars(char*pt_head,unsigned end_flag) ;$/;"	p	signature:(char*pt_head,unsigned end_flag)
+show_dir	tty.c	/^void show_dir(char*buf){\/\/dir block was pre-loaded to buf $/;"	f	signature:(char*buf)
+show_var	usr/include/sys_call.h	/^void show_var(unsigned var,unsigned var_type);$/;"	p	signature:(unsigned var,unsigned var_type)
+shstrtab	debug.c	/^static char*shstrtab;$/;"	v	file:
+single_step	kernel.asm	/^single_step:$/;"	l
+size_stackframe	proc.c	/^int size_stackframe=sizeof(STACK_FRAME);$/;"	v
+sleep	usr/include/sys_call.h	/^void sleep(int msg_type,int msg_bind);$/;"	p	signature:(int msg_type,int msg_bind)
+stab	debug.c	/^static NLIST*stab;$/;"	v	file:
+stab	debug/debug.c	/^NLIST*stab;			\/\/point to .stab section$/;"	v
+stabidx	debug.c	/^static int stabidx;$/;"	v	file:
+stabndx	debug/debug.c	/^int stabndx=0;		\/\/index of .stab within section header table$/;"	v
+stabnum	debug/debug.c	35;"	d	file:
+stabstr	debug.c	/^static char*stabstr;$/;"	v	file:
+stabstr	debug/debug.c	/^char*stabstr;		\/\/point to .stabstr section $/;"	v
+stabstrndx	debug/debug.c	/^int stabstrndx=0;	\/\/index of .stabstr within section header table$/;"	v
+stack_error	kernel.asm	/^stack_error:$/;"	l
+start_line	disp.c	/^static int start_line=0;\/\/当前是从第几行开始显示$/;"	v	file:
+stosb	disp.asm	/^stosb$/;"	l
+strcmp	ku_utils.c	/^int strcmp(char*pt1,char*pt2){$/;"	f	signature:(char*pt1,char*pt2)
+strcpy	utils.c	/^char*strcpy(char*dest,char*src){$/;"	f	signature:(char*dest,char*src)
+strlen	utils.c	/^int strlen(char*str){$/;"	f	signature:(char*str)
+strmatch	utils.c	/^boolean strmatch(char*seg,char*whole){$/;"	f	signature:(char*seg,char*whole)
+stru	struinfo.c	/^char*stru=0;$/;"	v
+struinfo	struinfo.c	/^void struinfo(void);$/;"	p	file:	signature:(void)
+struinfo	struinfo.c	/^void struinfo(void){$/;"	f	signature:(void)
+sub	disp.asm	/^sub ebx,4;point to next dword$/;"	l
+switch_proMode	boot.asm	/^switch_proMode:$/;"	l
+sysCall_dispStr	garbage/sysCall.asm	/^sysCall_dispStr:$/;"	l
+t	kernel.c	/^extern void t(void);$/;"	p	file:	signature:(void)
+ticks_new	proc.c	/^static int ticks_new=0; $/;"	v	file:
+time	tty.c	/^static void time(void);$/;"	p	file:	signature:(void)
+time	tty.c	/^static void time(void){$/;"	f	file:	signature:(void)
+times	boot.asm	/^times 510-($-$$)-4 db 0$/;"	l
+tmp	tty.c	/^char tmp[64];$/;"	v
+trace_addr	debug/debug.c	/^void trace_addr(unsigned addr){$/;"	f	signature:(unsigned addr)
+tss	kernel.asm	/^tss:$/;"	l
+tty	kernel.c	/^extern void tty(void);$/;"	p	file:	signature:(void)
+tty	tty.c	/^void tty(void){$/;"	f	signature:(void)
+tty1	kernel.c	/^extern void tty1(void);$/;"	p	file:	signature:(void)
+u_obuffer_shift	usr/include/sys_call.h	/^int u_obuffer_shift();$/;"	p	signature:()
+u_obuffer_shift	usr/src/sys_call.asm	/^u_obuffer_shift: int80h 2$/;"	l
+usro	makefile	/^usro= usr\/lib\/asmtask.o usr\/lib\/sys_call.o$/;"	m
+wake_hs	hs.c	/^void wake_hs(void){$/;"	f	signature:(void)
+watch	usr/include/sys_call.h	/^void watch(u32 addr,int write_only);$/;"	p	signature:(u32 addr,int write_only)
+width	disp.c	/^static int width=-1;\/\/开始必须<0  支持%4s这样的printf格式$/;"	v	file:
+widths	struinfo.c	/^int*widths=0;$/;"	v
+workon	struinfo.c	/^void workon(char*p_stru,char**p_names,int*p_widths,int *p_lens,int members);$/;"	p	file:	signature:(char*p_stru,char**p_names,int*p_widths,int *p_lens,int members)
+workon	struinfo.c	/^void workon(char*p_stru,char**p_names,int*p_widths,int *p_lens,int members){$/;"	f	signature:(char*p_stru,char**p_names,int*p_widths,int *p_lens,int members)
+write_asciis_buffer	disp.c	/^void write_asciis_buffer(unsigned x,unsigned val_type){$/;"	f	signature:(unsigned x,unsigned val_type)
+write_cmd_asciis	tty.c	/^void write_cmd_asciis(unsigned ascii){$/;"	f	signature:(unsigned ascii)

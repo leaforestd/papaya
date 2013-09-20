@@ -1,0 +1,6 @@
+#!/bin/bash 
+echo cd ../cmd/
+cd ../cmd/
+echo bochs -f .bochsrc
+bochs -f .bochsrc
+exit
