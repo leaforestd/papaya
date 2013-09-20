@@ -25,9 +25,11 @@
 
 #define HS_PID 1
 #define FS_EXT_PID 2
+/**papaya will support fat32,ntfs soon*/
 #define FS_NTFS_PID 
 #define FS_FAT16_PID
 #define FS_FAT32_PID
+
 typedef struct{
 	char c[size_buffer];
 	int head;
@@ -35,6 +37,9 @@ typedef struct{
 	int num;//环形数组当前队列长度
 }OBUFFER;
 
+/**1 these descriptor selectors are defined in kernel.asm
+ * 2 why we need them?		every time we init a new pcb for a burning process,we will set it's ds,cs,fs,gs,ss as plain-memory mod(but,this seems to be a ugly action,we can init these fields in a breath just when pcb_table is created,because they will be never touched any more.ok,i will fix it next version).
+ * */
 extern int selector_plain_c0,selector_plain_d0,selector_plain_c1,selector_plain_d1,selector_plain_c3,selector_plain_d3;
 typedef struct{
 	u32 gs;
@@ -76,6 +81,7 @@ typedef struct{
 	//DESCRIPTOR ldt[PCB_LDT_SIZE];
 }PCB;
 
+/**we record and update the basic information of pcb_table to this structure.(some members seem to be unnecessary,like num_active,num_expire..)*/
 typedef struct{
 	int num_task;
 	int num_active;
@@ -173,15 +179,16 @@ do{\
 	pcb_table[pid].mod=TASKMOD_ACTIVE;\
 } while(0)
 
+/**system call always return a value,obviouslly we can not write like 'rerurn xx',just set the 'eax'-field of process who traps into kernel mod*/
 #define SET_PID_EAX(pid,return_val)	pcb_table[pid].regs.eax=return_val
 
 /**ku	#define BOTTOM_PROC_STACK(pid) (BASE_PROCSTACK+LEN_PROCSTACK*(pid+1))	attention it's outer-bottom,not inner-bottom*/
 /**ku	#define ERRNO(pid) (*((int*)(BOTTOM_PROC_STACK(pid)-4)))*/
-//following two macros can only be call out-of-proc
+//following two macros can only be called out-of-proc,and,the process who just trapped into kernel mod will be fired immediately.
 #define SYSCALL_RET_TO(pid,return_var,return_errno)\
 	do{ERRNO(pid)=return_errno;SET_PID_EAX(pid,return_var);SLEEP_ACTIVE(pid);fire(pid);} while(0)
 #define SYSCALL_RET(return_var,return_errno) SYSCALL_RET_TO(pcb_table_info.curr_pid,return_var,return_errno)
-//following macro can only be called within proc,such as fs_ext,the difference is that they will not call fire(pid)
+//following macro can only be called within proc,such as fs_ext,the difference is that they will not call 'fire(pid)' immediately,so we call it 'soft'.In most case,a kernel-process will surrender it's timeslice after finishing jobs,so we never use 'fire(pid)' to snatch it's timeslice.
 #define SYSCALL_SOFT_RET_TO(pid,return_var,return_errno)\
 	do{ERRNO(pid)=return_errno;SET_PID_EAX(pid,return_var);SLEEP_ACTIVE(pid);} while(0)
 /**an impossible right macro,guess why?
@@ -195,8 +202,6 @@ void fire_asm(u32 addr_pcb);
 void proc_init(void);
 void create_kernel_process(u32 addr,int prio,int time_slice,char*p_name,int ring);
 void create_usr_process(char*exec_file,int prio,int time_slice,char*p_name,int father_pid);
-//void ofork(u32 addr,int prio,int time_slice,char*p_name,int ring);
-//void ofork_at_pid(int pid,u32 addr,int prio,int time_slice,char*p_name,int ring);
 PCB pcb_table[MAX_TASK];
 PCB_TABLE_INFO pcb_table_info;
 

@@ -1,3 +1,5 @@
-1,this document is created under linux,you may encounter \n\r problems under windows.
-2,all source-code is here,but some big-size file like diskimage and binary-file are deleted.
-/**jiejinmv@163.com*/
+0.9 this version has not been(but is being) heavily commented,and,some comment is outdated.
+    so don't lose your mind when puzzled by strange code blocks.
+1 this document is created under linux,you may encounter \n\r problems under windows.
+2 all source-code is here,but some big-size file like diskimage and binary-file are deleted.
+3 for more information,join our maillist http://163.fm/2oxxXKy.
